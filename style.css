@@ -63,7 +63,19 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
+a {
+  border: solid 1px;
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color:  #2F343B;
+  background-color: #FFFFFF;
+  transition-duration: 1s;
+}
 footer {
   text-align: center;
   padding-top: 15px;
